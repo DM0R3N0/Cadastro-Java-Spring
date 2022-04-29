@@ -9,8 +9,8 @@
 		<version>2.4.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.edu.ifpr.paranavai</groupId>
-	<artifactId>poswebsys</artifactId>
+	<groupId>br.com.dannes.cadastro</groupId>
+	<artifactId>dannes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>poswebsys</name>
 	<description>Exemplo de CRUD com Spring Boot</description>
@@ -62,6 +62,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
